@@ -10,7 +10,7 @@
 
 * An identifier of the subject who carried out the experiment.
 * The name of the activity. 
-* An 88-variable vector with the average of all mean and standard deviation variables from the combined 'x_test.txt' and 'x_train.txt' data for all subjects and activities.
+* An 86-variable vector with the average of all mean and standard deviation variables from the combined 'x_test.txt' and 'x_train.txt' data for all subjects and activities.
 	
 ## Notes:
 
