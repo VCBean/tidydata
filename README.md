@@ -15,4 +15,4 @@
 ## Notes:
 
 * The original files must be in the working directory to run 'run_analysis.R'.
-* To read 'Tidied_Data.txt' into R, run 'read.table("Tidied_Data.txt", header = TRUE)' with 'Tidied_Data.csv' in the working directory.
+* To read 'Tidied_Data.txt' into R, run 'read.table("Tidied_Data.txt", header = TRUE)' with 'Tidied_Data.txt' in the working directory.
