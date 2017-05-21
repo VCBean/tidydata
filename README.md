@@ -7,14 +7,15 @@
 	
 ## The script performs the following steps to create the 'Tidied_Data.txt' file:
  
-* Changed the variable names in 'x_test.txt' and 'x_train.txt' to the list of features in features.txt'.
-* Changed the variable name in 'y_test.txt' and 'y_train.txt' to 'activity'.
-* Changed the variable name in 'subject_test.txt' and 'subject_train.txt' to 'subject'.
-* Combined all test and train data into a single dataset.
-* Converted all variable names to lowercase with no dots, per the week 4 'Editing Text Variables' lecture.
-* Changed all activities factor names from numbers to the descriptive names in 'activity_labels.txt'.
-* Extracted all mean and standard deviation columns.
-* Calculated the average of all mean and standard deviation variables for all subjects and activities.
+* Changes the variable names in 'x_test.txt' and 'x_train.txt' to the list of features in features.txt'.
+* Changes the variable name in 'y_test.txt' and 'y_train.txt' to 'activity'.
+* Changes the variable name in 'subject_test.txt' and 'subject_train.txt' to 'subject'.
+* Combines all test and train data into a single dataset.
+* Converts all variable names to lowercase with no dots, per the week 4 'Editing Text Variables' lecture.
+* Changes all activities factor names from numbers to the descriptive names in 'activity_labels.txt'.
+* Extracts all mean and standard deviation columns.
+* Calculates the average of all mean and standard deviation variables for all subjects and activities.
+* Writes the result to the file named 'Tidied_Data.txt'
 
 ## For each record, the following is provided:
 
