@@ -1,5 +1,7 @@
-## Read in data; assumes test and train data
+## Read in data; assumes test and train directories
 ## are in the working directory
+library(plyr)
+library(reshape2)
 library(plyr)
 library(reshape2)
 xtest <-read.table("X_test.txt") 
@@ -53,6 +55,6 @@ tidied <- dcast(meltdata, subject + activity ~ variable, mean)
 #Replace "bodybody" in variable names with "body"
 gsub("bodybody","body",names(tidied))
 
-write.table(tidied, file = "Tidied_Data.csv", sep = ",")
+write.table(tidied, file = "Tidied_Data.txt", row.name=FALSE)
 
-##read.table("Tidied_Data.csv", header = TRUE, sep = ",") ##To read tidied dataset
+##read.table("Tidied_Data.txt", header = TRUE) ##To read tidied dataset
