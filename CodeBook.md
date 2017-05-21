@@ -1,6 +1,6 @@
-## Code Book for 'Tidied_Data.csv'
+## Code Book for 'Tidied_Data.txt'
 
-### The following steps were performed to create the 'Tidied_Data.csv' file:
+### The following steps were performed to create the 'Tidied_Data.txt' file:
  
 * Changed the variable names in 'x_test.txt' and 'x_train.txt' to the list of features in features.txt'.
 * Changed the variable name in 'y_test.txt' and 'y_train.txt' to 'activity'.
@@ -11,7 +11,7 @@
 * Extracted all mean and standard deviation columns.
 * Calculated the average of all mean and standard deviation variables for all subjects and activities.
 	
-### 'Tidied_Data.csv' contains the factors 'subject' and 'activity', and the following variables:
+### 'Tidied_Data.txt' contains the factors 'subject' and 'activity', and the following variables:
 	
 * tbodyaccmeanx
 * tbodyaccmeany
