@@ -15,7 +15,7 @@
 * Changes all activities factor names from numbers to the descriptive names in 'activity_labels.txt'.
 * Extracts all mean and standard deviation columns.
 * Calculates the average of all mean and standard deviation variables for all subjects and activities.
-* Writes the result to the file named 'Tidied_Data.txt'
+* Writes the result to the file named 'Tidied_Data.txt'.
 
 ## For each record, the following is provided:
 
