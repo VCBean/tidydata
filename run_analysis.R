@@ -1,13 +1,13 @@
-## Read in data; assumes test and train directories
+## Read in data; assumes test and train data
 ## are in the working directory
 library(plyr)
 library(reshape2)
-xtest <-read.table(".\\test\\X_test.txt") 
-ytest <-read.table(".\\test\\y_test.txt")
-subjecttest <-read.table(".\\test\\subject_test.txt")
-xtrain <-read.table(".\\train\\X_train.txt")
-ytrain <-read.table(".\\train\\y_train.txt")
-subjecttrain <-read.table(".\\train\\subject_train.txt")
+xtest <-read.table("X_test.txt") 
+ytest <-read.table("y_test.txt")
+subjecttest <-read.table("subject_test.txt")
+xtrain <-read.table("X_train.txt")
+ytrain <-read.table("y_train.txt")
+subjecttrain <-read.table("subject_train.txt")
 activity_labels <-read.table("activity_labels.txt")
 features <-read.table("features.txt")
 
