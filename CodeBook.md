@@ -11,7 +11,7 @@
 * Extracted all mean and standard deviation columns.
 * Calculated the average of all mean and standard deviation variables for all subjects and activities.
 	
-### 'Tidied_Data.txt' contains the factors 'subject' and 'activity', and the following variables:
+### 'Tidied_Data.txt' contains the factors 'subject' and 'activity', and averages for the following variables:
 	
 * tbodyaccmeanx
 * tbodyaccmeany
