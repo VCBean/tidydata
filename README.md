@@ -14,5 +14,5 @@
 	
 ## Notes:
 
-* The 'test' and 'train' directories must be subdirectories of the working directory to run 'run_analysis.R'.
+* The original files must be in the working directory to run 'run_analysis.R'.
 * To read 'Tidied_Data.csv' into R, run 'read.table("Tidied_Data.csv", header = TRUE, sep = ",")' with 'Tidied_Data.csv' in the working directory.
